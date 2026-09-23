@@ -1,8 +1,11 @@
 Requirements, language choice, architecture, prompt, state, decisions, and M4
 paradigm comparison
 
-Goal: Encrypting an AI generated transaction confirmation email sent from a company to the client.
+Goal: Encrypting a prompt for an AI generated transaction confirmation email sent from a company to the client.
       (Specifically, the client's name, the transaction number, and the Payment method of the user)
+
+Non-goals: Partial hiding of information, or hiding too much information i.e non personal information.
+
 
 Expected Output: The generated Email, with the information decrypted. (information must be encrypted and decrypted)
 
