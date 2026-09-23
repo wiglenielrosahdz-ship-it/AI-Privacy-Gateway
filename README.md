@@ -10,3 +10,15 @@ that there is a need for upscale, but for now this is a start.
 User:
 individuals or companies which handle transactions, or utilize A.I to confirm transactions, 
 these companies are also in charge of ensuring that their consumer information isn’t leaked.
+
+Planned Data flow: 
+Numbered in steps:
+1.	User Input: This is the user’s input, which is local to their machine.
+2.	Privacy gateway: This is the program which will encode the prompt and prepare it for it to be sent to A.I, this is also local to the machine, but can be expanded to include a data transfer.
+3.	A.I prompt: This is when we place the prompt into the A.I to draw an output. This is a data transfer from your local machine, to the A.I
+4.	Privacy Gateway: local: Once we get an output, we use the privacy gateway to decode information, except maybe the payment method, contained within an email. Local to the machine
+5.	Output: local: This is the translated version of the output which will be given back to the original user.
+
+Language used to code this program.
+The language used for these files and this program is C.
+
