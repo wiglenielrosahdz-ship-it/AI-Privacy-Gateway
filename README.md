@@ -1,4 +1,4 @@
-This is meant to be an AI Privacy gateway, to gate AI from receiving sensitive information. Mainly, for payment confirmation Emails which can come in any format, but I have chosen this sort of format
+This is meant to be an AI Privacy gateway, to gate AI from receiving sensitive information. Mainly, for payment confirmation Emails which can come in any format, but I have chosen this sort of format as a start:
 
 Draft an email about transaction 35, to John doe, with payment method 1234567890.
 
