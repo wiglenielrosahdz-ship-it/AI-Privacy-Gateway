@@ -15,3 +15,8 @@ Planned Data flow: Numbered in steps:
     Output: local: This is the translated version of the output which will be given back to the original user.
 
 Language used to code this program. The language used for these files and this program is C.
+
+
+The Tech_Spike folder is a brief Idea, of what I'm going to be making through the whole year. 
+It's brief, but the expectation is that it will need to be expanded into the full project later in the year.
+It can serve as a temporary idea of how to get started.
