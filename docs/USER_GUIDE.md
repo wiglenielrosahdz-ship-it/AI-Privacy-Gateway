@@ -1,1 +1,1 @@
-Empty for now will be implemented later
+How to run the program, supported formats, warnings, and troubleshooting.
