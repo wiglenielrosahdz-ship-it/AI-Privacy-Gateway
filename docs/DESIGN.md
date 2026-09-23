@@ -41,5 +41,5 @@ Repeated Intput: The Email contains multiple mentions of any PII, counts as repe
 
 No sensitive data: If there is no sensitive data, then nothing should be censored at all.
 
-Invalid response: I’m not sure how this would happen, but if I had to guess it would be if there is sensitive data that may not correspond to the actual email, for example, if you put a routing number rather than a credit card number, that would be invalid and declined.
+Invalid response: I’m not sure how this would happen, but if I had to guess it would be if there is sensitive data that may not correspond to the actual email, for example, if you put a routing number rather than a credit card number, that would be invalid and declined, but we'll see.
 
