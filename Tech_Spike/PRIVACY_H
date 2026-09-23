@@ -1,0 +1,9 @@
+#ifndef PRIVACY_H
+#define PRIVACY_H
+
+char* encodeint(char*);
+char* encodestr(char*);
+char* decodestr(char*);
+char* decodeint(char*);
+
+#endif
