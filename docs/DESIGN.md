@@ -4,6 +4,8 @@ paradigm comparison
 Goal: Encrypting an AI generated transaction confirmation email sent from a company to the client.
       (Specifically, the client's name, the transaction number, and the Payment method of the user)
 
+Expected Output: The generated Email, with the information decrypted. (information must be encrypted and decrypted)
+
 --------------------------Functional Requirements-------------------------------
 
 FR1: Program must be written in C.
