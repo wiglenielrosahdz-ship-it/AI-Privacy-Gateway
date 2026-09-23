@@ -1,6 +1,9 @@
 Requirements, language choice, architecture, prompt, state, decisions, and M4
 paradigm comparison
 
+Goal: Encrypting an AI generated transaction confirmation email sent from a company to the client.
+      (Specifically, the client's name, the transaction number, and the Payment method of the user)
+
 --------------------------Functional Requirements-------------------------------
 
 FR1: Program must be written in C.
