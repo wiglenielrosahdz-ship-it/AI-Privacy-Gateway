@@ -17,3 +17,11 @@ JAVA uses the JVM garbage collector as part of its management, while Cs manageme
 The User-based memory management of C means that the user has more direct access to manipulating memory, while
 the JAVA automated approach makes it easier to manage memory, since it is automated, but harder to manipulate specific parts of memory,
 without the use of references.
+
+Sources:
+https://simpleprogrammer.com/c-vs-java-10-key-differences/
+https://www.quora.com/How-does-Java-handle-memory-management-better-than-C-and-why-is-this-a-big-deal-for-developers
+https://stackoverflow.com/questions/3910625/which-language-has-better-memory-management-among-c-c-java
+
+Note: I understand that a lot of these are blogs, however, these are the main results that I obtained while searching up this problem.
+(Everything else was JAVA vs C++)
