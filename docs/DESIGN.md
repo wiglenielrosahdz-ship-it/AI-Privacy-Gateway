@@ -11,7 +11,7 @@ Expected Output: The generated Email, with the information decrypted. (informati
 
 --------------------------Functional Requirements-------------------------------
 
-FR1: Program must be written in C. C operates faster, and at a lower level than JAVA, meaning that strings and such get operated on much quicker. Scalability, however is much harder than JAVA, and any error in C could have potentially disastrous consequences on the User's device.
+FR1: Program must be written in C. C operates at a lower level than JAVA, meaning that the storage, allocation, and access of memory, is more  and can serve the program more adequately than JAVA. The aspects of memory manipulation in C, particularly pointers, could also serve as a method to mask Personal information. Scalability, however is much harder than JAVA, and any error in C could have potentially disastrous consequences on the User's device if memory is manipulated with incorrectly.
 
 FR2: Program must take in user input, which should be the same as the prompt, which would be
       provided to AI.
