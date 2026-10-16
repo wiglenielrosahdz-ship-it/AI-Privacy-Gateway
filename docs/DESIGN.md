@@ -37,9 +37,10 @@ NFR3 (optional): Program must send and receive masked prompt.
 
 Ordinary Input: Transaction number is a number, payment method is a credit card number, and name is a string of letters, first name last name. 
 
-Repeated Intput: The Email contains multiple mentions of any PII, counts as repeated values, meaning they should also be masked.
+Repeated Intput: The email contains multiple mentions of any PII, counts as repeated values, meaning they should also be masked.
 
 No sensitive data: If there is no sensitive data, then nothing should be censored at all.
 
-Invalid response: I’m not sure how this would happen, but if I had to guess it would be if there is sensitive data that may not correspond to the actual email, for example, if you put a routing number rather than a credit card number, that would be invalid and declined, but we'll see.
+Invalid response: If what is sent is not a text file, or text based. (I.E the whole file is just numbers, or is just not a text file [png]).
+      (I'm not entirely sure what to do here)
 
