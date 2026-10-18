@@ -15,17 +15,23 @@ FR1: Program must be written in C. C operates at a lower level than JAVA, meanin
 
 FR2: Program must take in user input, which should be the same as the prompt, which would be
       provided to AI.
+      (This can be implemented as a simple input)
       
 FR3: Program must Mask name, payment method, and transaction number
-
+      (This can be implemented with pointers,but we'll see)
+      
 FR4: Program must receive the AI's solution and be able to Restore it.
-
+      (This can be done mainly one way, the user inputting the output of AI into the program.)
+      
 FR5: Program must Restore Masked output.
-
+      (This is why FR4 can probably only be done that way)
+      
 ----------------------------Non-functional Requirements---------------------------------
 
 NFR1: Program must be able to Mask all sensitive information, correctly, not excessively.
-
+      (This is going to need to be done, almost on a case by case basis, or there needs to be formatting involve because other wise
+      word , word can be treated as a name, or word word can be treated as a name.)
+      
 NFR2: Program must return unmasked output for testing of restoration and masking functionalities.
 
 NFR3 (optional): Program must send and receive masked prompt to AI.
