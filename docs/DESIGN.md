@@ -18,29 +18,27 @@ FR2: Program must take in user input, which should be the same as the prompt, wh
       
 FR3: Program must Mask name, payment method, and transaction number
 
-FR4: Program must give the Masked prompt to AI in order for AI to fulfill the prompt.
+FR4: Program must receive the AI's solution and be able to Restore it.
 
-FR5: Program must receive the AI's solution and be able to Restore it.
-
-FR6: Program must Restore Masked output.
+FR5: Program must Restore Masked output.
 
 ----------------------------Non-functional Requirements---------------------------------
 
-NFR1: Program must be able to Mask all sensitive information, correctly.
+NFR1: Program must be able to Mask all sensitive information, correctly, not excessively.
 
 NFR2: Program must return unmasked output for testing of restoration and masking functionalities.
 
-NFR3 (optional): Program must send and receive masked prompt.
+NFR3 (optional): Program must send and receive masked prompt to AI.
 
 
 -----------------------------Synthetic Acceptance cases-----------------------------------
 
-Ordinary Input: Transaction number is a number, payment method is a credit card number, and name is a string of letters, first name last name. 
+Ordinary Input: Transaction number is a number, payment method is a number, and name is a string of letters, first name last name or last name, first name. 
 
 Repeated Intput: The email contains multiple mentions of any PII, counts as repeated values, meaning they should also be masked.
 
 No sensitive data: If there is no sensitive data, then nothing should be censored at all.
 
-Invalid response: If what is sent is not a text file, or text based. (I.E the whole file is just numbers, or is just not a text file [png]).
+Invalid response: If what is inputted is not text based (it's only a number) or can't be utilized as a valid string.
       (I'm not entirely sure what to do here)
 
