@@ -1,0 +1,7 @@
+#ifndef PRIVACY_H
+#define PRIVACY_H
+
+char* maskItem(char*,char*, char);
+char* restorePrompt(char*,char*,char);
+
+#endif
