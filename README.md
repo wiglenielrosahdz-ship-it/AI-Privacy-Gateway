@@ -20,3 +20,11 @@ Language used to code this program. The language used for these files and this p
 The Tech_Spike folder is a brief Idea, of what I'm going to be making through the whole year. 
 It's brief, but the expectation is that it will need to be expanded into the full project later in the year.
 It can serve as a temporary idea of how to get started.
+
+The AIPG folder is the real deal of the project, It is not finished, but the main pipes (masking and restoring) 
+of the entire pipeline, are close to done (not perfect, but functional).
+It serves as the foundation for this entire project and leaves only one main key part, which is inputting and
+receiving the solution from AI.
+
+Essentially:
+steps 1,2,4,5 of the data flow are done, or near done, it's just step 3, and the connections to 3 that need to be finished.
