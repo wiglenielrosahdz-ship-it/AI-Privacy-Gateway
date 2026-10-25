@@ -21,7 +21,7 @@ The Tech_Spike folder is a brief Idea, of what I'm going to be making through th
 It's brief, but the expectation is that it will need to be expanded into the full project later in the year.
 It can serve as a temporary idea of how to get started.
 
-*New Addition*
+*★★★Newly Added★★★*
 
 The AIPG folder is the real deal of the project, It is not finished, but the main pipes (masking and restoring) 
 of the entire pipeline, are close to done (not perfect, but functional).
