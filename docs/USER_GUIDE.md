@@ -24,6 +24,7 @@ I recommend using the linuxMint operating system (since that's how I'm working o
    
 
 *★★★Newly Added★★★*
+
 --------------------------------How to run the AIPG Program (AI Privacy Gateway)-----------------------------------------
 
 This is near finished, but does still have some limitations, and still needs the AI aspect to be attached to this program.
