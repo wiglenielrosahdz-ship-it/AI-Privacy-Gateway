@@ -26,6 +26,8 @@ https://stackoverflow.com/questions/3910625/which-language-has-better-memory-man
 Note: I understand that a lot of these are blogs, however, these are the main results that I obtained while searching up this problem.
 (Everything else was JAVA vs C++)
 
+*★★★Newly Added★★★*
+
 2. How should I implement a map in c?
    (This is not a specific prompt, but a more generalized goal of several questions I asked to A.I)
 
