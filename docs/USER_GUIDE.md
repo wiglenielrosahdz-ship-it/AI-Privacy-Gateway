@@ -11,10 +11,10 @@ I recommend using the linuxMint operating system (since that's how I'm working o
 2. Ensure you have the gcc downloaded by typing "sudo apt install gcc"
    
 3. Verify that your version of gcc is the most up to date "gcc --version"
-   
+
 4. In the command prompt, type cd AIPG, this will change your directory to AIPG.
    (If you have stored Tech_Spike anywhere else, you will need to copy its entire path, up to AIPG)
-   
+
 5. Then, if you wish to modify the files, (I recommend modifying, not adding to them), simply open them using a text editor of your choice
    (If you're using linuxMint, then it should be "nano [filename]".)
 
