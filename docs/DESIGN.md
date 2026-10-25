@@ -15,16 +15,14 @@ FR1: Program must be written in C. C operates at a lower level than JAVA, meanin
 
 FR2: Program must take in user input, which should be the same as the prompt, which would be
       provided to AI.
-      (This can be implemented as a simple input)
+      (This has been implemented as a simple input, not yet provided to AI.)
       
 FR3: Program must Mask name, payment method, and transaction number
-      (This can be implemented with pointers,but we'll see)
+      (This has been semi-implemented, all of these can be masked, but the user has to deliberately specify what to mask.)
       
 FR4: Program must receive the AI's solution and be able to Restore it.
-      (This can be done mainly one way, the user inputting the output of AI into the program.)
+      (The restoring is done, but it is not the AIs solution that's restored, right now it's just the prompt that was masked.)
       
-FR5: Program must Restore Masked output.
-      (This is why FR4 can probably only be done that way)
       
 ----------------------------Non-functional Requirements---------------------------------
 
@@ -45,6 +43,5 @@ Repeated Intput: The email contains multiple mentions of any PII, counts as repe
 
 No sensitive data: If there is no sensitive data, then nothing should be censored at all.
 
-Invalid response: If what is inputted is not text based (it's only a number) or can't be utilized as a valid string.
-      (I'm not entirely sure what to do here)
+Invalid response: If what is needed to be masked does not exist within the prompt provided. (This could break the program.)
 
