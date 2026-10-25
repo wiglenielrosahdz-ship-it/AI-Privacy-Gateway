@@ -12,10 +12,10 @@ I recommend using the linuxMint operating system (since that's how I'm working o
    
 3. Verify that your version of gcc is the most up to date "gcc --version"
 
-   4. In the command prompt, type cd AIPG, this will change your directory to AIPG.
+4. In the command prompt, type cd AIPG, this will change your directory to AIPG.
    (If you have stored Tech_Spike anywhere else, you will need to copy its entire path, up to AIPG)
 
-   5. Then, if you wish to modify the files, (I recommend modifying, not adding to them), simply open them using a text editor of your choice
+5. Then, if you wish to modify the files, (I recommend modifying, not adding to them), simply open them using a text editor of your choice
    (If you're using linuxMint, then it should be "nano [filename]".)
 
 6. In order to run the files, you must use the make file, and type "make run", this will cause the program to run.
@@ -38,9 +38,9 @@ For this, I recommend using the linuxmint operating system (since that's how I'm
 3. In the terminal, type cd AIPG, changing your directory to the correct "AIPG" directory.
    (If you store it anywhere else, you need to copy the entire path of AIPG.)
 
-4.To modify files, simply open a text editor, or in the linuxmint terminal type nano [filename].
+4. To modify files, simply open a text editor, or in the linuxmint terminal type nano [filename].
 
-5.To run the program, type "make run" in the linuxmint terminal, causing the program to run.
+5. To run the program, type "make run" in the linuxmint terminal, causing the program to run.
 
 6. Once it is running you will be prompted for several inputs, in this order:
    
