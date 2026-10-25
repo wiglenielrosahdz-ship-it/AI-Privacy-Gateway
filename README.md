@@ -22,6 +22,7 @@ It's brief, but the expectation is that it will need to be expanded into the ful
 It can serve as a temporary idea of how to get started.
 
 *New*
+
 The AIPG folder is the real deal of the project, It is not finished, but the main pipes (masking and restoring) 
 of the entire pipeline, are close to done (not perfect, but functional).
 It serves as the foundation for this entire project and leaves only one main key part, which is inputting and
