@@ -25,3 +25,21 @@ https://stackoverflow.com/questions/3910625/which-language-has-better-memory-man
 
 Note: I understand that a lot of these are blogs, however, these are the main results that I obtained while searching up this problem.
 (Everything else was JAVA vs C++)
+
+2. How should I implement a map in c?
+   (This is not a specific prompt, but a more generalized goal of several questions I asked to A.I)
+
+   It recommended that I use 2d arrays, which I did (kind of). I pressed on further and wanted to see if it was possible to make the
+   2d arrays dynamically allocated, which is possible, but I found the implementation, and more importantly the modification of the arrays
+   to be much more complex than time allowed, and so I settled for one static 2d array, and a 1d array, for the items that were being masked,
+   and the tokens, respectively. This works well with the current schematic of the program and can still be up-scaled using dynamically allocated 2d arrays later.
+   There were also several websites which had certain implementations of map, such as a map struct, but it wasn't exactly necessary with the two arrays.
+
+-------------------------------------------------Peer Assistance---------------------------------------------------------------
+
+1. During this module, I actually sat down and collaborated with Briana, on working with the masking, and with conceptualizing the mechanism
+   that was behind the masking of a given Item. This is sort of where I started thinking of a philosophy, covered in one of my classes.
+   (Systems and Network programming.) I was thinking of the masking function as a "Do one thing, and do it well" function, where it didn't need to
+   mask everything that it saw, just one specific thing every time it saw it. And that's now how the masking function is designed, and I applied this idea
+   to the restorePrompt function as well.
+   Aside from this brain storm with her, She also helped in verifying my code, and sort of the foundation of it, which helped throughout the development process.
