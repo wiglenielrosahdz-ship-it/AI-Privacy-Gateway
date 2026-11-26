@@ -21,7 +21,7 @@ The Tech_Spike folder is a brief Idea, of what I'm going to be making through th
 It's brief, but the expectation is that it will need to be expanded into the full project later in the year.
 It can serve as a temporary idea of how to get started.
 
-*★★★Newly Added★★★*
+///Added October 24th///
 
 The AIPG folder is the real deal of the project, It is not finished, but the main pipes (masking and restoring) 
 of the entire pipeline, are close to done (not perfect, but functional).
@@ -30,3 +30,18 @@ receiving the solution from AI.
 
 Essentially:
 steps 1,2,4,5 of the data flow are done, or near done, it's just step 3, and the connections to 3 that need to be finished.
+
+-------------Newly Added--------------///Added November 25th///
+
+The AIPG folder has been refined to fix many of the different bugs I discovered or came up with, as well as has now implemented duplicate management.
+The program now handles duplicates in a graceful manner that essentially declines duplicates and permits you to re-enter input.
+I had found tons of bugs, and have fixed, hopefully all of them.
+
+You are allowed up to 10 inputs, this number can be increased, but I do not recommend, since I believe the program has a
+time complexity of O(n^4) due to the newly implemented method of finding duplicates. You can have up to 100 inputs before it 
+becomes any sort of issue with time, and I don't imagine that it will be.
+
+Future Plans:
+Steps 1,2, and 5 are completely finished, it is now a matter of integrating AI prompts into 3 and  4, which I should hopefully have done before the end of this weekend. The main problem is that I'm not sure if there's a package in C for dealing with ChatGPT, but we'll see. Thas led to me having the idea of using a second programming language, like JavaScript (JSON files) to send information to chatGPT, but we'll see. 
+
+You may see there's an Output.txt file in AIPG now, this may be part of the future in regards to sending information to ChatGPT, but we'll see.
