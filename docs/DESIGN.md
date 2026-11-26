@@ -3,20 +3,20 @@ paradigm comparison
 
 *★★★Newly re-verified and modified★★★*
 
-Goal: Masking a prompt for an AI generated transaction confirmation email sent from a company to the client.
-      (Specifically, the client's name, the transaction number, and the Payment method of the user)
+Goal: Masking a prompt for a transaction Email containing Important or Personally Identifiable Information (IPII as I will refer to it from now on) that the sender may want to mask from AI,
+(For example, a Client's name, the Transaction's number, and the Payment method of the Client.)
 
-Non-goals: Partial hiding of information, or hiding too much information i.e non personal information.
+Non-goals: Partial hiding of User's IPII, or over-masking of non IPII values contained within the prompt, that the user may not want masked.
 
-
-Expected Output: The generated Email, with the information decrypted. (information must be encrypted and decrypted)
+Expected Output: The generated Email, with the IPII restored. (information must be masked and restored)
 
 --------------------------Functional Requirements-------------------------------
 
-FR1: Program must be written in C. C operates at a lower level than JAVA, meaning that the storage, allocation, and access of memory, is more  and can serve the program more adequately than JAVA. The aspects of memory manipulation in C, particularly pointers, could also serve as a method to mask Personal information. Scalability, however is much harder than JAVA, and any error in C could have potentially disastrous consequences on the User's device if memory is manipulated with incorrectly.
+FR1: Program must be written in C. The speed of C's direct compilation works better than JAVA's JVM for a program such as this one, since it is a smaller program, although that speed difference may be negligible. Also the more direct interactivity between C and the Operating system has the potential to make AI integration more efficient through piping, and/or running child processes, but this is a theory, not a certainty. Scalability, and portability, however is much harder in C than JAVA, and any error in C could have potentially disastrous consequences on the User's device if memory is manipulated with incorrectly, not to mention certain methods in C only work for windows and others only for Linux, which sucks when it comes to finding which to use. 
 
-FR2: Program must take in user input, which should be the same as the prompt, which would be
-      provided to AI.
+FR2: Program must take in user input:
+      -The prompt, this will be provided to AI, but not before...
+      -The items the user wants to mask.
       (This has been implemented as a simple input, not yet provided to AI.)
       
 FR3: Program must Mask name, payment method, and transaction number
@@ -39,9 +39,12 @@ NFR3 (optional): Program must send and receive masked prompt to AI.
 
 -----------------------------Synthetic Acceptance cases-----------------------------------
 
-Ordinary Input: Transaction number is a number, payment method is a number, and name is a string of letters, first name last name or last name, first name. 
+Ordinary Input: User inputs their prompt (an Email), which contains information to be masked, they specify what must be masked 
 
-Repeated Intput: The email contains multiple mentions of any PII, counts as repeated values, meaning they should also be masked.
+Repeated Intput: The email contains multiple mentions of any IPII, or item. These count as repeated values, meaning they should also be masked.
+
+Duplicated Input: user inputs multiple instances of one Item to be masked, and or similar items.
+(for example, the user tells the program to masked 877 and then tells it to mask 877, or 87, 87 is contained within 877 and thus it should be treated as a duplicated input.)
 
 No sensitive data: If there is no sensitive data, then nothing should be censored at all.
 
