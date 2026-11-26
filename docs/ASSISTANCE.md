@@ -26,7 +26,6 @@ https://stackoverflow.com/questions/3910625/which-language-has-better-memory-man
 Note: I understand that a lot of these are blogs, however, these are the main results that I obtained while searching up this problem.
 (Everything else was JAVA vs C++)
 
-*★★★Newly Added★★★*
 
 2. How should I implement a map in c?
    (This is not a specific prompt, but a more generalized goal of several questions I asked to A.I)
@@ -36,7 +35,11 @@ Note: I understand that a lot of these are blogs, however, these are the main re
    to be much more complex than time allowed, and so I settled for one static 2d array, and a 1d array, for the items that were being masked,
    and the tokens, respectively. This works well with the current schematic of the program and can still be up-scaled using dynamically allocated 2d arrays later.
    There were also several websites which had certain implementations of map, such as a map struct, but it wasn't exactly necessary with the two arrays.
+////////////////////newly Added/////////////
 
+3. How would I send input to chatGPT using a C program or Azure.
+   I asked it, and it straight up gave me the answer, which is not what I was looking for (I like the challenge and the learning of it all), so I searched around further, and found that there really isn't a way aside from manually making HTTPS calls. From my understanding I need to use the libcurl package in C in order to make HTTPS requests to send to ChatGPT or Azure, so that they can be processed. I need to figure out how to receive them, however, which is just as tough of a question, maybe getting them to send it back to my program as HTTPS packets, but how would I do that? Maybe Piping can help in this situation 
+    
 -------------------------------------------------Peer Assistance---------------------------------------------------------------
 
 1. During this module, I actually sat down and collaborated with Briana, on working with the masking, and with conceptualizing the mechanism
@@ -45,3 +48,6 @@ Note: I understand that a lot of these are blogs, however, these are the main re
    mask everything that it saw, just one specific thing every time it saw it. And that's now how the masking function is designed, and I applied this idea
    to the restorePrompt function as well.
    Aside from this brain storm with her, She also helped in verifying my code, and sort of the foundation of it, which helped throughout the development process.
+
+//////////////Newly Added////////////////
+2. I also texted Briana during this module, but I briefly asked for her insight on how she did her AI integration since she had done it already. She explained that she used a Java package which allowed her to manipulate the website elements, so that all she needed to do was finding the web element. Maybe I can do something similar in C, though I doubt it since most websites are not made with C, I believe.
